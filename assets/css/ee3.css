@@ -1,0 +1,26 @@
+/* common */
+html,body{margin:0;height:100%;}
+.red {color: red;}
+/* index */
+#amap{margin-top:0;height:100%;}
+#search {height:36px;line-height:30px;position:absolute;top:61px;right:10px;background-color:#ddf;color:#333;border:1px solid silver;box-shadow:1px 2px 3px 0px silver;overflow:hidden;}
+#search input[type="text"] {height:36px;border:0;padding-left:15px;width:300px;border-radius:3px;outline:none;}
+#create-course-form,#edit-course-swap{padding:20px 20px 0 0;display:none;}
+#create-course-form label,#add-task-form label{width:100px;font-weight:normal;}
+#rectangle-control,#task-rectangle-control{padding:14px 20px;background-color:#393D49;position:fixed;bottom:10%;right:15%;display:none;}
+#area-lt-lnglat,#area-rb-lnglat,#task-area-lt-lnglat,#task-area-rb-lnglat{line-height:230%;}
+#view-course-swap,#task-list-swap,#topic-list-swap{width:1140px;margin:0 auto;}
+
+/* course list */
+#view-course-swap{padding-top:10px;}
+#task-list-swap,#topic-list-swap{display:none;}
+#task-list-swap #add-task-button-div,#topic-list-swap #topic-type-select-swap{width:1140px;margin:0 auto;padding:20px 0 0 0;text-align:right;}
+#edit-course-swap label,#add-task-form label{width:100px;font-weight:normal;}
+#add-task-swap{display:none;}
+#add-task-form{padding:20px 20px 0 0}
+#topic-list-swap #topic-type-select-swap{margin-bottom:20px;}
+#single-swap,#multi-swap,#photo-swap,#qa-swap{display:none;padding:20px 20px 0 0;}
+#single-swap label,#multi-swap label,#photo-swap label,#qa-swap label{width:100px;font-weight:normal;}
+
+
+
